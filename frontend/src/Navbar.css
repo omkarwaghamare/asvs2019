@@ -1,0 +1,17 @@
+.navbar {
+  background-color: pink;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: black;
+}

@@ -1,0 +1,29 @@
+/* src/PhotoGrid.css */
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.grid-item {
+  flex: 1 0 21%; /* 4 items per row */
+  margin: 5px;
+  overflow: hidden;
+  position: relative;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.grid-item img {
+  width: 80%;
+  height: 80%;
+  transition: transform 0.3s;
+}
+
+.grid-item:hover img {
+  transform: scale(1.1);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
